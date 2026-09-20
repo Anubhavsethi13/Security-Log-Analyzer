@@ -1,0 +1,14 @@
+# Secrets and local environment
+.env
+backend/.env
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# Local tooling
+.vscode/
+.DS_Store

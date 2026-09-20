@@ -1,0 +1,37 @@
+[
+  {
+    "timestamp": "2026-09-20T10:15:02Z",
+    "source_ip": "203.0.113.42",
+    "event": "failed login",
+    "user": "admin",
+    "status": "failure"
+  },
+  {
+    "timestamp": "2026-09-20T10:15:05Z",
+    "source_ip": "203.0.113.42",
+    "event": "failed login",
+    "user": "root",
+    "status": "failure"
+  },
+  {
+    "timestamp": "2026-09-20T10:15:08Z",
+    "source_ip": "203.0.113.42",
+    "event": "failed login",
+    "user": "administrator",
+    "status": "failure"
+  },
+  {
+    "timestamp": "2026-09-20T10:16:11Z",
+    "source_ip": "198.51.100.77",
+    "event": "SQL injection attempt",
+    "path": "/login?id=1 OR 1=1",
+    "status": "blocked"
+  },
+  {
+    "timestamp": "2026-09-20T10:17:31Z",
+    "source_ip": "198.51.100.77",
+    "event": "privilege escalation",
+    "user": "svc-web",
+    "status": "detected"
+  }
+]
