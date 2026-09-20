@@ -1,4 +1,4 @@
-const API = "http://localhost:8000",
+const API = "https://security-log-analyzer-9ce6.onrender.com",
   $ = (id) => document.getElementById(id);
 const sample = [
   {
@@ -85,7 +85,7 @@ $("analyzeBtn").addEventListener("click", async () => {
     render(d);
   } catch (e) {
     showError(
-      e.message + " Make sure the FastAPI backend is running on port 8000.",
+      e.message + " Please check the backend service and API connection.",
     );
   } finally {
     setBusy(false);
